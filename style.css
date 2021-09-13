@@ -39,12 +39,15 @@ body {
     margin: 15px;
 }
 
-.play_button {
+.song_name_button {
     font-size: 25px;
-    width: 130px;
+    width:fit-content;
+    margin-top: 40px;
 }
 
 canvas{
-    border: 5px solid white;
+    border: 1px solid black;
     border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px black;
 }

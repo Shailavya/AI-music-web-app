@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AI DJ WEB APP</title>
+	<title>AI MUSIC WEB APP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,28 +15,18 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
 
 </head>
-<body background="background.jpg">
+<body background="OIP.jfif">
 <center>
-  	<h3 class="btn btn-warning heading">AI DJ WEB APP
+  	<h3 class="btn btn-warning heading">AI MUSIC WEB APP
 	    <br>
 	    <span class="note">NOTE - Move your left-hand wrist up and down for increasing and decreasing the volume. 
         Move your right-hand wrist up and down for increasing and decreasing the speed</span>
   	</h3>
-    <div class="div_speed">
-      <img class="div_image_speed" src="disk.gif">
-      <br>
-      <h3 class="btn btn-danger" id="speed">Speed</h3>
-    </div>
-
-    <div class="div_volume">
-      <img class="div_image_volume" src="disk.gif">
-      <br>
-      <h3 class="btn btn-danger" id="volume">Volume</h3>
-    </div>
+  <button onclick="play();" class="btn btn-danger song_name_button">Song Name</button>
+    
 
 	<br><br>
 
-  <button onclick="play();" class="btn btn-success play_button">Play</button>
 </center>
 
 <script src="main.js"></script>
